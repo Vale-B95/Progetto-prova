@@ -12,15 +12,53 @@
 </head>
 <body>
     <header>
-    ciao mondo io sono l'header 
+       <h1> ciao mondo io sono l'header </h1>
     <!--commento-->
+    <h2>esempio di form</h2>
+
+    <form action="" method="get">
+    <!--method serve a far capire come spedire i dati esistono 2 modi Get e Post 
+    Get fa vedere i dati anche nel URL post no e serve per le password essenzialmente,
+    mentre action serve a spedire il Form nella pagina back and quindi ci va messo il file 
+    esempio Login.php-->
+
+        <p>
+            <label>inserisci nome: </label>
+            <!--label è l'etichetta che sta sopra e spiega cosa va inserito serve all'utente-->
+            <input type ="text">
+        </p>
+        
+        <p>
+            <label>inserisci il tempo: </label>
+            <input type="time">
+        </p>
+
+        <p>
+            <label>inserisci la data: </label>
+            <input type="date">
+        </p>
+
+        <p>
+            <label> inserisci il colore: </label>
+            <input type ="color">
+
+        </p>
+
+            <input type="button" value="sono inutile">
+            <input type ="reset">
+            <input type="submit">
+      
+
+    </form>
+
     <hr>
     <!--serve per fare una riga di separazione -->
     <br>
+     <!--andare a capo sia hr che br non hanno tag di chiusura perchè fa un azione e basta -->
 </header>
 
 <main>
-    <!--andare a capo sia hr che br non hanno tag di chiusura perchè fa un azione e basta -->
+   
     <h1>titolo 1 (piu importante)</h1>
     <h2>titolo 2 (meno importante)</h2>
     <!--fino ad h6-->
@@ -34,6 +72,8 @@
        contenuto 2<br>
        contenuto 3 
     </details>
+
+
     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"> link a documentazione HTML</a>
     <!--target="_blank" apre il link in un altra pagina web -->
 
@@ -52,11 +92,13 @@
     <img src="the-last-of-us-part-ii-39288.1200x675.webp" alt="The Last Of Us part II Ellie ed Abby">
     <!--come inserire un immagine e la relativa descrizione -->
 
+
 </main>
 
 <footer>
     <hr>
     ---- sono il footer -----
+    <!--il footer è il pie di pagina.-->
 </footer>
 </body>
 </html>
